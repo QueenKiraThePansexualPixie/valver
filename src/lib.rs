@@ -1,6 +1,10 @@
+/// [`valver`] is a **val**idation and **ver**ification library for enforcing 
+/// the validity of data through enum-matching and other checks.
+
 // enums
 
 #[allow(non_camel_case_types)]
+/// Enum for different types of string case.
 pub enum ValVerCase {
     kebab__case,
     Title__Kebab__Case,
